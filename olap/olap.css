@@ -1,0 +1,72 @@
+.search_result > .olap_table_container
+{
+	width:100%;
+	max-height:calc(100% - 42px);
+	overflow:auto;
+}
+.search_result > .olap_table_container > .data_table
+{
+	width:100%;
+}
+.search_result > .olap_table_container > .data_table tbody tr th
+{
+	text-align:left;
+	vertical-align:top;
+	padding:5px;
+	background-color:#eee;
+}
+.search_result .option_panel
+{
+	padding-bottom:4px;
+	float:left;
+}
+.search_result .option_panel > .option
+{
+	white-space:nowrap;
+	display:inline-block;
+	padding-right:8px;
+	padding-bottom:4px;
+}
+.search_result .option_panel > .option > *
+{
+	display:inline-block;
+}
+.search_result .option_panel > .option > label
+{
+	line-height:34px;
+	vertical-align:top;
+	padding-right:8px;
+	min-width:48px;
+}
+@media screen and (min-width:440px)
+{
+	.search_result > .render_panel
+	{
+		float:right;
+	}
+}
+@media screen and (max-width:440px)
+{
+	.search_result > .render_panel
+	{
+		float:left;
+	}
+}
+.search_result > .render_panel > *
+{
+	margin-left:8px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.search_result > .render_panel > .filter
+{
+	padding:6px 8px;
+	background-color:#206;
+	color:#fff;
+	border-radius:8px;
+}
+.search_result > .chart
+{
+	width:100%;
+	height:calc(100% - 42px);
+}
